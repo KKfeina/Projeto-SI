@@ -1,0 +1,113 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sub-topo{
+    background: #EBEBEB;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-topo a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 0.8rem;
+}
+.sub-topo a:hover{
+    text-decoration-line: underline;
+}
+.logo{
+    color: #222222;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+#buscar{
+    float:left;
+    padding-left:5px; 
+    font-size:18px;
+    border: none;
+    width:340px;
+}
+#txt-buscar{
+    border:solid 0.5px #222222;
+    border-radius:10px;
+    height:25px;
+    width:389px;
+    margin: auto;
+    padding-left: 10px;
+}
+.buscar{
+    background: #222222;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    padding: 5px;
+
+}
+.entrar a{
+border-block-end: #222222;
+text-decoration: none;
+color: #222222;
+}
+.carrinho-{
+    background: #EBEBEB;
+    border: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.container-topo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+.categoria{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.categoria a{
+    text-decoration: none;
+    color: #222222;
+}
+.carrosel{
+    text-align: center;
+}
+.novidade{
+    color: #222222;
+    text-align: center;
+    margin-top: 25px;
+    text-underline-position: auto;
+}
+.linha{
+    width: 20px;
+    border: #222222 solid 2px;
+    border-radius: 5px;
+}
+.roupas{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.destaques img:hover{
+    opacity: 0.6;
+}
+.destaques{
+    text-align: center;
+}
+.conferir{
+    background: #222222;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.radial{
+    border-radius: 50%;
+}
+.marcas{
+    text-align: center;
+}
